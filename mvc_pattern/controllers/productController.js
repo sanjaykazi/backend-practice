@@ -22,6 +22,7 @@ const getProducts = async (req, res) => {
         })
     }
 }
+
 const getProductById = async (req, res) => {
     try {
         const { id } = req.params; // Extract the id from the request parameters
